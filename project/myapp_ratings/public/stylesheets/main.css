@@ -1,0 +1,38 @@
+body {
+    /*background-color: #f2d9d9;*/
+    background-color: #132639;
+    padding-top: 70px; 
+}
+
+.thumbnail img {
+    width: 100%;  
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+.delete-form {
+    display: inline;
+}
+
+#well {
+    border-left: 5px solid #00C851;
+}
+
+#own-comment {
+    color: orange;
+}
+
+#welledit {
+    border-left: 5px solid #ffbb33; 
+    margin-top: 15px;
+}
+
+.checked {
+    color: orange;
+}

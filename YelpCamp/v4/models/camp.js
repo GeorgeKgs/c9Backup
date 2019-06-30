@@ -1,0 +1,17 @@
+var mongoose   = require("mongoose");
+
+//Schema setup
+var campSchema = new mongoose.Schema({
+   name: String,
+   image: String,
+   description: String, 
+   comments: [
+       {
+           type: mongoose.Schema.Types.ObjectId,
+           ref: "Comment" //model name
+       }
+   ]
+});
+
+var Camp = mongoose.model("Camp", campSchema);
+module.exports = Camp;
